@@ -1,0 +1,85 @@
+import { Project } from "@/types";
+
+
+export const projects: Project[] = [
+  {
+    title: 'Inventory Control System',
+    description: 'A robust inventory management solution developed using ASP.NET Core and SQL Server. It streamlines stock tracking, purchase and sales records, and warehouse operations with real-time data updates and role-based access control..',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe'],
+    githubLink: 'https://github.com',
+    demoLink: 'https://demo.com',
+    image: '/projects/inventory-control-system.png',
+  },
+  {
+    title: 'Automated Production & Quality Management System',
+    description: 'An end-to-end system built with ASP.NET Core and SQL Server to automate garment production workflows and quality control processes. Enables real-time production tracking, barcode-based quality checks, exception handling, and actionable performance analytics.',
+    technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
+    githubLink: 'https://github.com',
+    demoLink: 'https://demo.com',
+    image: '/projects/pms.png',
+  },
+  {
+    title: 'Portfolio Website',
+    description: 'A personal portfolio website designed and developed using Next.js and Tailwind CSS to showcase professional projects, skills, experience, and contact information. Fully responsive with smooth animations, optimized for SEO, and hosted for fast global access.',
+    technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
+    githubLink: 'https://github.com',
+    demoLink: 'https://demo.com',
+    image: '/projects/portfolio.png',
+  },
+  {
+    title: 'Madrasha Management System',
+    description: 'A centralized management platform developed using ASP.NET Core and SQL Server to streamline academic, administrative, and financial operations in Islamic educational institutions. Features include student enrollment, class scheduling, result processing, fee management, and staff administration.',
+    technologies: ['Gatsby', 'GraphQL', 'Contentful'],
+    githubLink: 'https://github.com',
+    demoLink: 'https://demo.com',
+    image: '/projects/madrasha.png',
+  },
+  {
+    title: 'Staff Movement System',
+    description: 'A real-time tracking and approval system developed using ASP.NET Core and SQL Server to manage staff in/out movement within an organization. Supports permission requests, supervisor approvals, and automated entry logs for enhanced accountability and security.',
+    technologies: ['React', 'OpenWeatherMap API'],
+    githubLink: 'https://github.com',
+    demoLink: 'https://demo.com',
+    image: '/projects/staff.png',
+  },
+  {
+    title: 'Visitor Management System',
+    description: 'A secure and efficient system built with ASP.NET Core and SQL Server to streamline visitor registration, approval, and tracking processes. Key features include visitor pre-registration, real-time check-in/out, host notifications, and digital visitor logs.',
+    technologies: ['React', 'Node.js', 'Socket.io'],
+    githubLink: 'https://github.com',
+    demoLink: 'https://demo.com',
+    image: '/projects/visitor.png',
+  },
+  {
+    title: 'BNA System',
+    description: 'A performance monitoring tool built with ASP.NET Core and SQL Server to identify, analyze, and visualize production bottlenecks in garment manufacturing. Enables data-driven decision-making through real-time stage-wise tracking, delay analysis, and performance reports.',
+    technologies: ['React', 'Edamam API'],
+    githubLink: 'https://github.com',
+    demoLink: 'https://demo.com',
+    image: '/projects/bna.png',
+  },
+  {
+    title: 'Challan & Bill Tracing System',
+    description: 'A web-based solution developed with ASP.NET Core and SQL Server to monitor and trace challans and bills across departments. Features include challan generation, bill submission tracking, status updates, and aging reports to ensure financial accountability and faster reconciliation.',
+    technologies: ['React', 'Firebase'],
+    githubLink: 'https://github.com',
+    demoLink: 'https://demo.com',
+    image: '/projects/centry.png',
+  },
+  {
+    title: 'IT Company Portfolio Website',
+    description: 'A modern, responsive website designed and developed for an IT company to showcase services, projects, and team profiles. Built with HTML, CSS, JavaScript, and Bootstrap (or Tailwind), it includes interactive service sections, client testimonials, and a contact form with email integration.',
+    technologies: ['React', 'Firebase'],
+    githubLink: 'https://github.com',
+    demoLink: 'https://demo.com',
+    image: '/projects/itport.png',
+  },
+  {
+    title: 'Online Course Registration System',
+    description: 'A web-based platform built with ASP.NET Core and SQL Server that enables students to browse, register, and manage academic or training courses online. Includes course catalogs, registration deadlines, seat availability, and admin-level course and student management.',
+    technologies: ['React', 'Firebase'],
+    githubLink: 'https://github.com',
+    demoLink: 'https://demo.com',
+    image: '/projects/course.png',
+  }
+];
