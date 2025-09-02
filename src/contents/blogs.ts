@@ -2,7 +2,7 @@ import { Blog } from "@/types";
 
 export const blogs: Blog[] = [
     {
-        title: 'Getting Started with Next.js 14',
+        title: 'ASP.NET Core Middleware',
         excerpt: 'Learn about the new features and improvements in Next.js 14.',
         date: '2024-03-15',
         readTime: '5 min read',
